@@ -25,7 +25,6 @@
  *	 [X+SIZE_STACK+2, SIZE_MEMORY]	heap
  *
  * code mapping:
- *   uint32_t	length_of_data_section 
  *   uint32_t	total_bytes_data
  *   uint8_t[]	code
  *
