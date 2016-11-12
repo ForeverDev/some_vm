@@ -64,5 +64,6 @@ typedef struct VMState {
 
 VMState_t* vm_init();
 void vm_execute(VMState_t*, uint8_t*);
+void vm_dump_registers(VMState_t*);
 
 #endif
